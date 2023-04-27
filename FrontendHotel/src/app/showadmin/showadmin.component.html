@@ -1,0 +1,76 @@
+<body>
+    
+    <div id="hotel" class="container my-5">
+    
+        <h1 id="flight" class="mb-3">Bookings</h1>
+        <!-- <a [routerLink]="['AddbookingComponent']">AddbookingComponent</a> -->
+       
+        <table border="4" class="table" *ngIf="hotels && hotels.length>0">
+       
+        <thead>
+       
+         <tr>
+       
+       <th>Booking_Id</th>
+       
+        <th>Customer_Id</th>
+       
+    <th>Date_Of_Booking</th>
+    <th>Room_No</th>
+       
+       </tr>
+       
+        </thead>
+       
+        <tbody>
+       
+       <tr *ngFor="let hotel of hotels">
+       
+       <td>{{hotel.bookingId}}</td>
+       <td>{{hotel.customerId}}</td>
+       <td>{{hotel.dateOfBooking}}</td>
+       <td>{{hotel.roomNo}}</td>
+       <td><button (click)="Del(hotel.bookingId)">Del</button></td>
+      
+       </tbody>
+       </table>
+       <p *ngIf="!hotels || hotels.length<=0">not found</p>
+     </div>
+
+
+    <div class="container my-5">
+    
+        <h1 class="mb-3">Customer</h1>
+       
+       
+        <table border="4" class="table" *ngIf="cus && cus.length>0">
+       
+        <thead>
+       
+         <tr>
+            <th>Customer_Id</th>
+            <th>Customer_Name</th>
+            <th>Customer_Email</th>
+            <th>Custoemr_Contact</th>
+            <th>Customer_Address</th>
+            <th>Age</th>
+         </tr>
+       
+     </thead>
+       
+    <tbody>
+       
+       <tr *ngFor="let c of cus">
+       
+        <td>{{c.customerId}}</td>
+        <td>{{c.customerName}}</td>
+        <td>{{c.customerEmail}}</td>
+        <td>{{c.customerContact}}</td>
+        <td>{{c.customerAddress}}</td>
+        <td>{{c.age}}</td>
+        </tbody>
+       </table>
+       <p *ngIf="!cus || cus.length<=0">not found</p>
+    </div>
+
+</body>

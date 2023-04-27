@@ -1,0 +1,47 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ASPOKHRI\\source\\repos\\HotelManagementSystem\\ClassLibrary1\\ClassLibrary1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ASPOKHRI\\source\\repos\\HotelManagementSystem\\ClassLibrary1\\ClassLibrary1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ASPOKHRI\\source\\repos\\HotelManagementSystem\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectName": "ClassLibrary1",
+        "projectPath": "C:\\Users\\ASPOKHRI\\source\\repos\\HotelManagementSystem\\ClassLibrary1\\ClassLibrary1.csproj",
+        "packagesPath": "C:\\Users\\ASPOKHRI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASPOKHRI\\source\\repos\\HotelManagementSystem\\ClassLibrary1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASPOKHRI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net50"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net50": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net50": {
+          "targetAlias": "net5.0",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

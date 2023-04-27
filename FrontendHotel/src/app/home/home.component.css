@@ -1,0 +1,29 @@
+.d-block 
+{
+    height: 100%;
+    width: 100%;
+}
+.e-block 
+{
+    height: 100%;
+    width: 100%;
+}
+.f-block 
+{
+    height: 100%;
+    width: 100%;
+}
+
+#carouselExampleCaptions{
+    width: 1275px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-inner{
+    height: 552px;
+}

@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    height: 100%;
+}
+.container-1{
+    background-image: url("https://lirp.cdn-website.com/f6b7e59e/dms3rep/multi/opt/data_single-beds_venus-single-bed-revised_honey-finish_look-1100x768-640w.jpg");
+    height: 50%;
+    width: 50%;
+    position:absolute;
+    left: 0;
+    top: 10;
+}
+.container-1>h4{
+    color:coral;
+    font-family:monospace;
+}
+.container-1>h6{
+    color: blue;
+    font-family:monospace;
+}
+.container-2{
+    background-image: url("http://cdn.shopify.com/s/files/1/0326/0920/6408/articles/spacejoy-vOa-PSimwg4-unsplash.jpg?v=1671014588");
+
+    background-color: red;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 10;
+}
+.container-2>h4{
+    color:coral;
+    font-family:monospace;
+}
+.container-2>h6{
+    color: blue;
+    font-family:monospace;
+}
+.container-3{
+    background-image: url("https://media.istockphoto.com/id/1289144776/photo/interior-of-a-bedroom-with-a-horizontal-poster-on-the-wall-between-two-windows-a-bed-with.jpg?s=612x612&w=0&k=20&c=sPwOwi4Mn7v3zi-qhYt8ukwqqTZjnQ5JxEB1ObMkLSE=");
+
+    background-color: yellow;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 60%;
+    left: 0;
+}
+.container-3>h4{
+    color:coral;
+    font-family:monospace;
+}
+.container-3>h6{
+    color: blue;
+    font-family:monospace;
+}
+.container-4{
+    background-image: url("https://www.hospitalitybusiness.co.nz/wp-content/uploads/2020/09/Hotel-Fitzroy-Luxury-Room-small.jpg");
+
+    background-color: green;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+.container-4>h4{
+    color:coral;
+    font-family:monospace;
+}
+.container-4>h5{
+    color: blue;
+    font-family:monospace;
+}
